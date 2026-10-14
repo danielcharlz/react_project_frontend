@@ -1,0 +1,47 @@
+[
+  {
+    "_id": {
+      "$oid": "64a000000000000000000001"
+    },
+    "name": "Dr. Arjun Mehta",
+    "occupation": "Cardiology",
+    "avatar": "/images/avatars/arjun.png",
+    "connectionsCount": 2
+  },
+  {
+    "_id": {
+      "$oid": "64a000000000000000000002"
+    },
+    "name": "Docconnect",
+    "occupation": "Healthcare Technology",
+    "avatar": "/images/avatars/docconnect.png",
+    "connectionsCount": 2
+  },
+  {
+    "_id": {
+      "$oid": "64a000000000000000000003"
+    },
+    "name": "Dr. Priya Sharma",
+    "occupation": "Pediatrics",
+    "avatar": "/images/avatars/priya.png",
+    "connectionsCount": 2
+  },
+  {
+    "_id": {
+      "$oid": "64a000000000000000000004"
+    },
+    "name": "CarePlus Clinic",
+    "occupation": "General Practice",
+    "avatar": "/images/avatars/careplus.png",
+    "connectionsCount": 2
+  },
+  {
+    "_id": {
+      "$oid": "64a000000000000000000005"
+    },
+    "name": "Dr. Meera Nair",
+    "occupation": "Psychiatry",
+    "avatar": "/images/avatars/mindcare.png",
+    "connectionsCount": 2
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "_id": {
+      "$oid": "6acfb23204e45de11bd1cebe"
+    },
+    "author": {
+      "$oid": "64a000000000000000000002"
+    },
+    "content": "Welcome to Docconnect! We're building India's largest healthcare professional network. Connect with doctors, nurses, pharmacists, and medical students across the country. Let's transform healthcare collaboration together. 🇮🇳",
+    "image": "/images/posts/post5.png",
+    "likesCount": 5,
+    "sharesCount": 3,
+    "createdAt": {
+      "$date": "2026-10-14T15:47:46.467Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acfb23204e45de11bd1cebf"
+    },
+    "author": {
+      "$oid": "64a000000000000000000004"
+    },
+    "content": "Caring for our seniors is a privilege. Our home-care team makes sure your loved ones get all the support they need and feel at home.",
+    "image": "/images/posts/post1.png",
+    "likesCount": 5,
+    "sharesCount": 3,
+    "createdAt": {
+      "$date": "2026-10-14T13:47:46.467Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acfb23204e45de11bd1cec0"
+    },
+    "author": {
+      "$oid": "64a000000000000000000001"
+    },
+    "content": "Not all heroes wear capes. Some wear scrubs. A big thank you to every nurse and doctor working through the night shift this week.",
+    "image": "/images/posts/post3.png",
+    "likesCount": 12,
+    "sharesCount": 4,
+    "createdAt": {
+      "$date": "2026-10-14T10:47:46.467Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acfb23204e45de11bd1cec1"
+    },
+    "author": {
+      "$oid": "64a000000000000000000002"
+    },
+    "content": "Healthcare Professional Wellness Week starts Tuesday, January 9. Your mental health matters as much as your patients. Take a break, breathe, and check in with your colleagues.",
+    "image": "/images/posts/post2.png",
+    "likesCount": 8,
+    "sharesCount": 2,
+    "createdAt": {
+      "$date": "2026-10-13T16:47:46.467Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acfb23204e45de11bd1cec2"
+    },
+    "author": {
+      "$oid": "64a000000000000000000005"
+    },
+    "content": "Between memory and forgetting, there is presence. On World Alzheimer's Awareness Day, let's support patients and the families who care for them.",
+    "image": "/images/posts/post4.png",
+    "likesCount": 9,
+    "sharesCount": 1,
+    "createdAt": {
+      "$date": "2026-10-12T16:47:46.467Z"
+    }
+  }
+]

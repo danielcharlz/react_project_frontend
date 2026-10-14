@@ -112,6 +112,15 @@ Images are served statically from `backend/public/images` at `/images/...`.
 | `posts`              | `author` (ref → users), `content`, `image`, `likesCount`, `sharesCount`, `createdAt` |
 | `connectionrequests` | `from` (ref → users), `to` (ref → users), `createdAt`, `updatedAt` — unique on `{from, to}` |
 
+### Database export
+
+`backend/database/` contains a JSON export of the seeded database (`users.json`, `posts.json`, `connectionrequests.json`). `npm run seed` is the normal way to create the data; the export is included for reference, or to import directly with [MongoDB Database Tools](https://www.mongodb.com/try/download/database-tools):
+
+```bash
+mongoimport --uri mongodb://127.0.0.1:27017/brandopedia --collection users --jsonArray --drop --file backend/database/users.json
+mongoimport --uri mongodb://127.0.0.1:27017/brandopedia --collection posts --jsonArray --drop --file backend/database/posts.json
+```
+
 ## How the "Requested" state persists
 
 1. Tapping **Connect** shows a spinner and sends `POST /connect`.
